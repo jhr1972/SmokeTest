@@ -1,0 +1,310 @@
+2017-11-02/12:09:02.816 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-02/12:09:02.818 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-02/12:09:21.304 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-02/12:09:21.307 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@4fe3c938]
+2017-11-02/12:09:21.433 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-02/12:09:21.433 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-02/12:09:25.779 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-02/12:09:25.780 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-02/12:09:25.815 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-02/12:09:25.816 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@4fe3c938]
+2017-11-02/12:19:14.726 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-02/12:19:14.727 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-02/12:20:33.731 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-02/12:20:33.732 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-02/12:28:56.592 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-02/12:28:56.594 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-02/12:28:57.693 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-02/12:28:57.695 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@7b4c50bc]
+2017-11-02/12:36:40.962 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-02/12:36:40.963 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-02/12:36:42.128 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-02/12:36:42.133 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@78c03f1f]
+2017-11-02/12:36:42.511 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-02/12:36:42.512 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-02/12:36:42.900 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-02/12:36:42.902 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@78c03f1f]
+2017-11-03/05:07:10.661 DEBUG: ci.TestSummaryChecks - Starting...
+2017-11-03/05:07:11.008 DEBUG: ci.RestCaller - ++++++++++++++++++++
+2017-11-03/05:07:11.822 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-03/05:07:11.823 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-03/05:07:12.570 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-03/05:07:12.573 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@7791a895]
+2017-11-03/05:07:12.832 TRACE: filter.ValueNode$PathNode - PathNode @['somevalue'] existsCheck: false
+2017-11-03/05:07:12.833 TRACE: filter.FilterCompiler - Operator from 15 to 16 -> [==]
+2017-11-03/05:07:12.834 TRACE: filter.FilterCompiler - StringLiteral from 18 to 31 -> ['pod123count']
+2017-11-03/05:07:12.835 TRACE: filter.RelationalExpressionNode - ExpressionNode @['somevalue'] == 'pod123count'
+2017-11-03/05:07:12.870 DEBUG: path.CompiledPath - Evaluating path: $['OpenShiftStatus'][?]['count']
+2017-11-03/05:07:12.880 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:07:12.903 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:07:12.904 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:07:12.904 DEBUG: ci.RestCaller - ++++++++++++++++++++123
+2017-11-03/05:07:12.905 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-03/05:07:12.906 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-03/05:07:13.153 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-03/05:07:13.153 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@7791a895]
+2017-11-03/05:07:13.154 TRACE: filter.ValueNode$PathNode - PathNode @['somevalue'] existsCheck: false
+2017-11-03/05:07:13.154 TRACE: filter.FilterCompiler - Operator from 15 to 16 -> [==]
+2017-11-03/05:07:13.154 TRACE: filter.FilterCompiler - StringLiteral from 18 to 31 -> ['pod456count']
+2017-11-03/05:07:13.154 TRACE: filter.RelationalExpressionNode - ExpressionNode @['somevalue'] == 'pod456count'
+2017-11-03/05:07:13.154 DEBUG: path.CompiledPath - Evaluating path: $['OpenShiftStatus'][?]['count']
+2017-11-03/05:07:13.154 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:07:13.155 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:07:13.155 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:07:13.155 DEBUG: ci.RestCaller - ++++++++++++++++++++456
+2017-11-03/05:10:59.174 DEBUG: ci.TestSummaryChecks - Starting...
+2017-11-03/05:10:59.594 DEBUG: ci.RestCaller - starting to parse SummaryChecks. 
+2017-11-03/05:11:00.675 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-03/05:11:00.676 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-03/05:11:02.341 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-03/05:11:02.348 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@7791a895]
+2017-11-03/05:11:02.680 TRACE: filter.ValueNode$PathNode - PathNode @['somevalue'] existsCheck: false
+2017-11-03/05:11:02.681 TRACE: filter.FilterCompiler - Operator from 15 to 16 -> [==]
+2017-11-03/05:11:02.682 TRACE: filter.FilterCompiler - StringLiteral from 18 to 31 -> ['pod123count']
+2017-11-03/05:11:02.682 TRACE: filter.RelationalExpressionNode - ExpressionNode @['somevalue'] == 'pod123count'
+2017-11-03/05:11:02.686 DEBUG: path.CompiledPath - Evaluating path: $['OpenShiftStatus'][?]['count']
+2017-11-03/05:11:02.694 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:11:02.711 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:11:02.712 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:11:02.712 DEBUG: ci.RestCaller - Rest Response - Current Counts: 123
+2017-11-03/05:11:02.714 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-03/05:11:02.714 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-03/05:11:03.031 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-03/05:11:03.033 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@7791a895]
+2017-11-03/05:11:03.037 TRACE: filter.ValueNode$PathNode - PathNode @['somevalue'] existsCheck: false
+2017-11-03/05:11:03.038 TRACE: filter.FilterCompiler - Operator from 15 to 16 -> [==]
+2017-11-03/05:11:03.038 TRACE: filter.FilterCompiler - StringLiteral from 18 to 31 -> ['pod456count']
+2017-11-03/05:11:03.038 TRACE: filter.RelationalExpressionNode - ExpressionNode @['somevalue'] == 'pod456count'
+2017-11-03/05:11:03.040 DEBUG: path.CompiledPath - Evaluating path: $['OpenShiftStatus'][?]['count']
+2017-11-03/05:11:03.041 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:11:03.042 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:11:03.043 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:11:03.043 DEBUG: ci.RestCaller - Rest Response - Current Counts: 456
+2017-11-03/05:11:49.713 DEBUG: ci.TestSummaryChecks - Starting...
+2017-11-03/05:11:50.346 DEBUG: ci.RestCaller - starting to parse SummaryChecks. 
+2017-11-03/05:11:51.199 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-03/05:11:51.199 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-03/05:11:52.396 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-03/05:11:52.400 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@7791a895]
+2017-11-03/05:11:52.411 DEBUG: ci.RestCaller - Result: 
+2017-11-03/05:11:52.608 TRACE: filter.ValueNode$PathNode - PathNode @['somevalue'] existsCheck: false
+2017-11-03/05:11:52.609 TRACE: filter.FilterCompiler - Operator from 15 to 16 -> [==]
+2017-11-03/05:11:52.610 TRACE: filter.FilterCompiler - StringLiteral from 18 to 31 -> ['pod123count']
+2017-11-03/05:11:52.611 TRACE: filter.RelationalExpressionNode - ExpressionNode @['somevalue'] == 'pod123count'
+2017-11-03/05:11:52.634 DEBUG: path.CompiledPath - Evaluating path: $['OpenShiftStatus'][?]['count']
+2017-11-03/05:11:52.648 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:11:52.682 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:11:52.683 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:11:52.684 DEBUG: ci.RestCaller - Rest Response - Current Counts: 123
+2017-11-03/05:11:52.685 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-03/05:11:52.685 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-03/05:11:53.288 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-03/05:11:53.289 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@7791a895]
+2017-11-03/05:11:53.290 DEBUG: ci.RestCaller - Result: 
+2017-11-03/05:11:53.290 TRACE: filter.ValueNode$PathNode - PathNode @['somevalue'] existsCheck: false
+2017-11-03/05:11:53.290 TRACE: filter.FilterCompiler - Operator from 15 to 16 -> [==]
+2017-11-03/05:11:53.291 TRACE: filter.FilterCompiler - StringLiteral from 18 to 31 -> ['pod456count']
+2017-11-03/05:11:53.291 TRACE: filter.RelationalExpressionNode - ExpressionNode @['somevalue'] == 'pod456count'
+2017-11-03/05:11:53.291 DEBUG: path.CompiledPath - Evaluating path: $['OpenShiftStatus'][?]['count']
+2017-11-03/05:11:53.291 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:11:53.292 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:11:53.292 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:11:53.292 DEBUG: ci.RestCaller - Rest Response - Current Counts: 456
+2017-11-03/05:12:16.042 DEBUG: ci.TestSummaryChecks - Starting...
+2017-11-03/05:12:16.324 DEBUG: ci.RestCaller - starting to parse SummaryChecks. 
+2017-11-03/05:12:17.088 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-03/05:12:17.091 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-03/05:12:18.356 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-03/05:12:18.361 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@7791a895]
+2017-11-03/05:12:18.367 DEBUG: ci.RestCaller - Result: {
+  "OpenShiftStatus": [
+    {
+      "somevalue": "pod123count",
+      "count": 123
+    },
+    {
+      "somevalue": "pod456count",
+      "count": 456
+    },
+    {
+      "somevalue": "pod789count",
+      "count": 78899
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
+2017-11-03/05:12:18.559 TRACE: filter.ValueNode$PathNode - PathNode @['somevalue'] existsCheck: false
+2017-11-03/05:12:18.559 TRACE: filter.FilterCompiler - Operator from 15 to 16 -> [==]
+2017-11-03/05:12:18.560 TRACE: filter.FilterCompiler - StringLiteral from 18 to 31 -> ['pod123count']
+2017-11-03/05:12:18.561 TRACE: filter.RelationalExpressionNode - ExpressionNode @['somevalue'] == 'pod123count'
+2017-11-03/05:12:18.565 DEBUG: path.CompiledPath - Evaluating path: $['OpenShiftStatus'][?]['count']
+2017-11-03/05:12:18.583 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:12:18.617 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:12:18.618 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:12:18.618 DEBUG: ci.RestCaller - Rest Response - Current Counts: 123
+2017-11-03/05:12:18.619 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-03/05:12:18.619 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-03/05:12:18.958 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-03/05:12:18.960 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@7791a895]
+2017-11-03/05:12:18.964 DEBUG: ci.RestCaller - Result: {
+  "OpenShiftStatus": [
+    {
+      "somevalue": "pod123count",
+      "count": 123
+    },
+    {
+      "somevalue": "pod456count",
+      "count": 456
+    },
+    {
+      "somevalue": "pod789count",
+      "count": 78899
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
+2017-11-03/05:12:18.966 TRACE: filter.ValueNode$PathNode - PathNode @['somevalue'] existsCheck: false
+2017-11-03/05:12:18.967 TRACE: filter.FilterCompiler - Operator from 15 to 16 -> [==]
+2017-11-03/05:12:18.968 TRACE: filter.FilterCompiler - StringLiteral from 18 to 31 -> ['pod456count']
+2017-11-03/05:12:18.968 TRACE: filter.RelationalExpressionNode - ExpressionNode @['somevalue'] == 'pod456count'
+2017-11-03/05:12:18.970 DEBUG: path.CompiledPath - Evaluating path: $['OpenShiftStatus'][?]['count']
+2017-11-03/05:12:18.970 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:12:18.972 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:12:18.973 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:12:18.974 DEBUG: ci.RestCaller - Rest Response - Current Counts: 456
+2017-11-03/05:13:52.374 DEBUG: ci.TestSummaryChecks - Starting...
+2017-11-03/05:13:52.747 DEBUG: ci.RestCaller - starting to parse SummaryChecks. 
+2017-11-03/05:13:53.730 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-03/05:13:53.731 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-03/05:13:55.142 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-03/05:13:55.146 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@7791a895]
+2017-11-03/05:13:55.152 DEBUG: ci.RestCaller - Result: {
+  "OpenShiftStatus": [
+    {
+      "somevalue": "pod123count",
+      "count": 123
+    },
+    {
+      "somevalue": "pod456count",
+      "count": 456
+    },
+    {
+      "somevalue": "pod789count",
+      "count": 78899
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
+2017-11-03/05:13:55.389 TRACE: filter.ValueNode$PathNode - PathNode @['somevalue'] existsCheck: false
+2017-11-03/05:13:55.389 TRACE: filter.FilterCompiler - Operator from 15 to 16 -> [==]
+2017-11-03/05:13:55.390 TRACE: filter.FilterCompiler - StringLiteral from 18 to 31 -> ['pod123count']
+2017-11-03/05:13:55.391 TRACE: filter.RelationalExpressionNode - ExpressionNode @['somevalue'] == 'pod123count'
+2017-11-03/05:13:55.403 DEBUG: path.CompiledPath - Evaluating path: $['OpenShiftStatus'][?]['count']
+2017-11-03/05:13:55.416 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:13:55.444 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:13:55.445 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:13:55.447 DEBUG: ci.RestCaller - Rest Response - Current Counts: 123
+2017-11-03/05:13:55.450 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-03/05:13:55.450 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-03/05:13:56.106 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-03/05:13:56.107 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@7791a895]
+2017-11-03/05:13:56.108 DEBUG: ci.RestCaller - Result: {
+  "OpenShiftStatus": [
+    {
+      "somevalue": "pod123count",
+      "count": 123
+    },
+    {
+      "somevalue": "pod456count",
+      "count": 456
+    },
+    {
+      "somevalue": "pod789count",
+      "count": 78899
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
+2017-11-03/05:13:56.110 TRACE: filter.ValueNode$PathNode - PathNode @['somevalue'] existsCheck: false
+2017-11-03/05:13:56.110 TRACE: filter.FilterCompiler - Operator from 15 to 16 -> [==]
+2017-11-03/05:13:56.111 TRACE: filter.FilterCompiler - StringLiteral from 18 to 31 -> ['pod456count']
+2017-11-03/05:13:56.111 TRACE: filter.RelationalExpressionNode - ExpressionNode @['somevalue'] == 'pod456count'
+2017-11-03/05:13:56.112 DEBUG: path.CompiledPath - Evaluating path: $['OpenShiftStatus'][?]['count']
+2017-11-03/05:13:56.113 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:13:56.113 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:13:56.114 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/05:13:56.114 DEBUG: ci.RestCaller - Rest Response - Current Counts: 456
+2017-11-03/08:27:47.835 DEBUG: ci.TestSummaryChecks - Starting...
+2017-11-03/08:27:48.161 DEBUG: ci.RestCaller - starting to fill SummaryChecks XML with REST result. 
+2017-11-03/08:27:48.920 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-03/08:27:48.920 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-03/08:27:49.669 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-03/08:27:49.673 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@eec5a4a]
+2017-11-03/08:27:49.677 DEBUG: ci.RestCaller - Result: {
+  "OpenShiftStatus": [
+    {
+      "somevalue": "pod123count",
+      "count": 123
+    },
+    {
+      "somevalue": "pod456count",
+      "count": 456
+    },
+    {
+      "somevalue": "pod789count",
+      "count": 78899
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
+2017-11-03/08:27:49.842 TRACE: filter.ValueNode$PathNode - PathNode @['somevalue'] existsCheck: false
+2017-11-03/08:27:49.842 TRACE: filter.FilterCompiler - Operator from 15 to 16 -> [==]
+2017-11-03/08:27:49.843 TRACE: filter.FilterCompiler - StringLiteral from 18 to 31 -> ['pod123count']
+2017-11-03/08:27:49.844 TRACE: filter.RelationalExpressionNode - ExpressionNode @['somevalue'] == 'pod123count'
+2017-11-03/08:27:49.876 DEBUG: path.CompiledPath - Evaluating path: $['OpenShiftStatus'][?]['count']
+2017-11-03/08:27:49.885 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/08:27:49.900 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/08:27:49.900 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/08:27:49.901 DEBUG: ci.RestCaller - Rest Response - Current Counts: 123
+2017-11-03/08:27:49.902 DEBUG: client.RestTemplate - Created GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db"
+2017-11-03/08:27:49.902 DEBUG: client.RestTemplate - Setting request Accept header to [text/plain, */*]
+2017-11-03/08:27:50.510 DEBUG: client.RestTemplate - GET request for "https://my-json-server.typicode.com/jhr1972/resttest/db" resulted in 200 (OK)
+2017-11-03/08:27:50.512 DEBUG: client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@eec5a4a]
+2017-11-03/08:27:50.513 DEBUG: ci.RestCaller - Result: {
+  "OpenShiftStatus": [
+    {
+      "somevalue": "pod123count",
+      "count": 123
+    },
+    {
+      "somevalue": "pod456count",
+      "count": 456
+    },
+    {
+      "somevalue": "pod789count",
+      "count": 78899
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
+2017-11-03/08:27:50.515 TRACE: filter.ValueNode$PathNode - PathNode @['somevalue'] existsCheck: false
+2017-11-03/08:27:50.515 TRACE: filter.FilterCompiler - Operator from 15 to 16 -> [==]
+2017-11-03/08:27:50.516 TRACE: filter.FilterCompiler - StringLiteral from 18 to 31 -> ['pod456count']
+2017-11-03/08:27:50.516 TRACE: filter.RelationalExpressionNode - ExpressionNode @['somevalue'] == 'pod456count'
+2017-11-03/08:27:50.517 DEBUG: path.CompiledPath - Evaluating path: $['OpenShiftStatus'][?]['count']
+2017-11-03/08:27:50.518 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/08:27:50.519 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/08:27:50.519 DEBUG: path.CompiledPath - Evaluating path: @['somevalue']
+2017-11-03/08:27:50.520 DEBUG: ci.RestCaller - Rest Response - Current Counts: 456
