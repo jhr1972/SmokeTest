@@ -34,6 +34,7 @@
             <goals>
                 <goal>run-war-only</goal>
                
+               
                 
             </goals>
             <phase>package</phase>
