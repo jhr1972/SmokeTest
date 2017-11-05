@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
-import de.atos.ci.*;
+import de.atos.ci.SummaryChecks;;
 /*
  * author: Crunchify.com
  * 

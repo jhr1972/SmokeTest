@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
-import de.atos.ci.*;
+import de.atos.ci.SummaryChecks;
+import de.atos.ci.RestCaller;
+import de.atos.ci.Check;
 
 import java.io.File;
 import java.util.List;
@@ -33,7 +35,7 @@ import javax.xml.bind.Unmarshaller;
 					//+ "<h3>********** Hello World, Spring MVC Tutorial</h3>This message is coming from CrunchifyHelloWorld.java **********</div><br><br>";
 			
 					//ModelAndView mv = new ModelAndView();
-					StatusListe sl = new StatusListe();
+					
 					logger.debug("Reading Status configuration SummaryChecks.xml");
 					SummaryChecks checks =null;
 					try {
