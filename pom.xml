@@ -1,12 +1,13 @@
 <!DOCTYPE project SYSTEM "project.dtd"><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.atos.reitzig</groupId>
-  <artifactId>springmvc1</artifactId>
+  <artifactId>smoketest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
+
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.7.0</version>
@@ -22,7 +23,46 @@
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>
+        <plugin>
+    <groupId>org.apache.tomcat.maven</groupId>
+    <artifactId>tomcat7-maven-plugin</artifactId>
+    <!--  <version>2.1</version>  -->
+    <executions>
+        
+        <execution>
+            <id>tomcat-run</id>
+            <goals>
+                <goal>run-war-only</goal>
+               
+                
+            </goals>
+            <phase>package</phase>
+            <configuration>
+                                   <warRunDependency>
+                                    <dependency>
+                                        <groupId>${project.groupId}</groupId>
+                                        <artifactId>smoketestqw</artifactId>
+                                        <version>0.0.1-SNAPSHOT</version>
+                                        <type>war</type>
+                                    </dependency>
+                                    <charset>utf-8</charset>
+                                    <httpPort>8080</httpPort>
+                                    <contextPath>/</contextPath>
+                         </warRunDependency>
+                <path>/smoketest</path>
+                <enableNaming>false</enableNaming>
+                <finalName>smoketest.jar</finalName>
+                <charset>utf-8</charset>
+ 
+            </configuration>
+        </execution>
+         
+ 
+         
+    </executions>
+</plugin>
     </plugins>
+    
   </build>
   <dependencies>
   	<dependency>
